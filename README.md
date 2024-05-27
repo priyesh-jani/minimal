@@ -1,116 +1,105 @@
-# The Minimal theme
+# Sr. Data Analyst
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
+## Professional Summary
+Results-oriented Data Analyst with 8+ years of experience driving business growth through data-driven insights. Expertise in web analytics, funnel optimization, and data visualization using Adobe Analytics, Google Analytics, Tableau, and SQL. Proven ability to translate complex data into actionable strategies, resulting in increased revenue, improved efficiency, and enhanced customer experiences.
 
-*Minimal is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/minimal), or even [use it today](#usage).*
+## Skills
 
-![Thumbnail of Minimal](thumbnail.png)
+### Web Analytics Tools: 
+Adobe Analytics, Google Analytics, Google Data Studio
+### Data Visualization: 
+Tableau, Power BI
+### Programming Languages: 
+SQL, Python
+### Data Analysis: 
+A/B Testing, Statistical Analysis, Data Modeling, Business Intelligence
+### Microsoft Office Suite: 
+Excel, PowerPoint, Word
+### Project Management & Collaboration: 
+Jira, Confluence
+### Additional Skills: 
+Storytelling, Performance Optimization, Customer Relationship Management, Demand Planning, Forecasting
 
-## Usage
+## Experience
 
-To use the Minimal theme:
+### Senior Data Analyst                                                                                  
+The Home Depot, Dallas, Texas                          
+Mar 2023 – Present 
 
-1. Add the following to your site's `_config.yml`:
+•	Developed comprehensive dashboards using Power BI, Google Data Studio, and Tableau to enhance data accessibility by 20% and deliver actionable insights to stakeholders. \
+•	Conducted meticulous analysis of web data to optimize conversion rates at both the top and bottom of the funnel, resulting in a notable 15% reduction in operational expenses through targeted strategies. \
+•	Spearheaded e-commerce initiatives, driving a significant 25% improvement in cart conversion rates and enhancing overall customer experience. \
+•	Utilized website and app data analysis to track traffic sources, user interactions, customer journeys, and conversions, resulting in a 20% increase in conversion rates. \
+•	Demonstrated mastery in SQL, Python, Adobe Analytics, and Excel for proficient A/B testing and meticulous feature evaluation, ensuring optimal performance in data-driven decision-making. \
+•	Efficiently conveyed complex insights to stakeholders, facilitating a remarkable 40% increase in comprehension and alignment across diverse groups. 
 
-    ```yml
-    remote_theme: pages-themes/minimal@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+### Data Analyst / Tableau Developer					                      
+Samsung Electronics America, Plano, Texas                                                     
+Oct 2021 – Mar 2023 
+								
+•	Utilized Tableau, SQL, and Python to analyze business performance, providing detailed insights and reports on product performance, resulting in a 15% increase in sales efficiency. \
+•	Developed and automated Tableau dashboards for daily reporting to managers and leadership, including Sellout Dashboard, Launch Matrix, and Revenue Models, reducing reporting time by 30%. \
+•	Built financial and forecasting models to optimize profitability through discount and expense analysis, setting sales targets, leading to a 20% increase in profitability. \
+•	Collaborated with supply chain counterparts and managers, achieving 95-100% demand planning achievement rates, resulting in a 25% reduction in inventory costs. \
+•	Managed two key flagship product launches, leveraging past launch data to identify drivers, customer behavior, and market opportunities, resulting in a 30% increase in market share. \
+•	Supervised a team of 2-3 analysts, providing decision support to business leaders and overseeing data management using SQL, improving team efficiency by 40%.
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+### Data Analyst                        		                                                  		 
+Schlumberger, Youngsville, LA                                                                         
+Sept 2019 – Oct 2021 
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+•	Utilized Python and SQL to acquire and interpret time and depth data, generating reports in Tableau and SSRS, resulting in a 20% increase in data accuracy. \
+•	Presented findings to clients, enhancing project performance and identifying optimization opportunities, leading to a 15% improvement in project efficiency. \
+•	Monitored drilling operations in real-time, predicted anomalies, and provided decision-making support, resulting in a 25% reduction in operational errors. \ 
+•	Collaborated with clients and managers on rig-up reports, site inventory, and financial analysis, contributing to a 30% increase in project profitability. \
+•	Supervised multiple projects and teams, ensuring high-quality service delivery and analyzing product and service performance for strategic insights, resulting in a 40% increase in client satisfaction.   
 
-## Customizing
+### Data Analyst 								                                      
+Geolog Americas Inc., Houston, TX                                                              
+Feb 2019 – Aug 2019 
 
-### Configuration variables
+•	Acquired and interpreted real-time data using SQL and Tableau to predict anomalies. \
+•	Managed operations and a team of 2-5 personnel throughout the project lifecycle. \
+•	Conducted rig-up operations, routine maintenance, repairs, and calibration checks. \
+•	Communicated project insights through dashboards and stories in Tableau.
+                                        
+### Operations Engineer                                                                                                  
+John Energy Ltd, Ahmedabad, India                                                                
+Aug 2014 – Dec 2016 
 
-Minimal will respect the following variables, if set in your site's `_config.yml`:
+•	Developed drilling performance analysis using field data, maintaining performance metrics. \
+•	Supervised crews of 20-30 personnel for efficient project implementation. \
+•	Collaborated with clients to optimize drilling parameters for different formations. \
+•	Monitored operations in real-time, identified issues, and implemented effective solutions.
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+## Education
 
-Additionally, you may choose to set the following optional variables:
+### Master of Science with Thesis (MS) in Petroleum Engineering
+Missouri University of Science and Technology \
+Jan 2019 
 
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+#### Thesis : 
+Investigating the use of class C fly ash-based geopolymer cement as a potential alternative to Portland cement to seal CO2 storage wells. [Click to Read](https://scholarsmine.mst.edu/masters_theses/7886/)
 
-### Stylesheet
+### Bachelor of Technology (B. Tech) in Petroleum Engineering                               
+Pandit Deendayal Petroleum University, Gandhinagar, India \
+May 2014 
 
-If you'd like to add your own custom styles:
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+## Research
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+• SPE, IPTC 19393: New Formulation of Fly Ash Class C Based Geopolymer for Oil Well Cementing [Click to Read](https://onepetro.org/IPTCONF/proceedings-abstract/19IPTC/2-19IPTC/D021S046R006/154233?redirectedFrom=PDF) \
+• Journal of Science and Engineering, PETROL 108408: Class C fly ash-based alkali activated cement as a potential alternative cement for CO2 storage applications [Click to Read](https://www.sciencedirect.com/science/article/pii/S092041052100067X) \
+• Journal of Earth Science & Climatic Change: Comprehensive review of chemical and mechanical degradation of well cement in CO2 environment for CCS operations [Click to Read](https://www.omicsonline.org/proceedings/comprehensive-review-of-chemical-and-mechanical-degradation-of-well-cement-in-co2-environment-for-ccs-operations-107334.html) 
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
 
-### Layouts
 
-If you'd like to change the theme's HTML layout:
 
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/minimal/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
 
-### Customizing Google Analytics code
 
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
 
-### Overriding GitHub-generated URLs
 
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
 
-1. Look at [the template source](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
 
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
 
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
 
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/minimal/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Minimal theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Minimal? We'd love your help. Minimal is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/minimal`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
