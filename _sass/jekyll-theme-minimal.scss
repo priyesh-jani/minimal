@@ -18,7 +18,7 @@ body {
 }
 
 .left-side {
-  width: 850px; /* Increased width */
+  width: 300px; /* Adjusted width if needed */
   background-color: #595958; /* Changed color */
   color: white;
   text-align: center;
@@ -26,6 +26,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: fixed; /* Make the left side fixed */
+  height: 100vh; /* Full height */
+  overflow-y: auto; /* Add scrolling if content overflows */
 }
 
 header, footer {
@@ -39,6 +42,7 @@ header h1, header p, header a, header ul, footer p {
 section {
   flex-grow: 1;
   padding: 20px;
+  margin-left: 320px; /* Adjust margin to match the width of the left-side */
 }
 
 h1 {
@@ -161,50 +165,48 @@ ul.downloads {
 }
 
 .appointment-btn {
-    display: block;
-    margin: 20px auto; /* Updated to center horizontally */
-    padding: 10px 20px;
-    background-color: transparent; /* Updated to transparent */
-    color: #FFFFFF; 
-    text-decoration: none;
-    border: 2px solid #FFFFFF; /* Added black border */
-    border-radius: 5px;
-    text-align: center;
+  display: block;
+  margin: 20px auto; /* Updated to center horizontally */
+  padding: 10px 20px;
+  background-color: transparent; /* Updated to transparent */
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 2px solid #FFFFFF; /* Added black border */
+  border-radius: 5px;
+  text-align: center;
 }
 
 .appointment-btn:hover, .appointment-btn:focus {
-    background-color: #1a5a8b;
-    font-weight: bold;
+  background-color: #1a5a8b;
+  font-weight: bold;
 }
 
 .social-profiles {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-}
-
-.social-profiles {
-    position: fixed;
-    bottom: 20px; /* Adjust this value to control the distance from the bottom */
-    left: 20px; /* Change this from right to left */
-    z-index: 999; /* Ensures it stays above other content */
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  position: relative; /* Change position to relative */
+  bottom: auto; /* Reset the bottom property */
+  left: auto; /* Reset the left property */
+  right: auto; /* Reset the right property */
+  z-index: 999; /* Ensures it stays above other content */
 }
 
 .social-profiles a {
-    display: block;
-    width: 45px;
-    height: 45px;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 20px;
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .social-profiles a:hover, .social-profiles a:focus {
-    background-color: #555;
+  background-color: #555;
 }
 
 .downloads li {
@@ -269,7 +271,7 @@ hr {
 }
 
 @media print, screen and (max-width: 960px) {
-  div.wrapper {
+  .wrapper {
     width: auto;
     margin: 0;
   }
