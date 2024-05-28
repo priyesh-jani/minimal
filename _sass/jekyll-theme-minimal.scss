@@ -18,9 +18,10 @@ body {
 }
 
 .left-side {
-  width: 650px; /* Increased width */
+  width: 850px; /* Increased width */
   background-color: #595958; /* Changed color */
   color: white;
+  text-align: center;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -161,11 +162,12 @@ ul.downloads {
 
 .appointment-btn {
     display: block;
-    margin: 20px 0;
+    margin: 20px auto; /* Updated to center horizontally */
     padding: 10px 20px;
-    background-color: #267CB9;
-    color: white;
+    background-color: transparent; /* Updated to transparent */
+    color: #000000; /* Updated to black */
     text-decoration: none;
+    border: 2px solid #000000; /* Added black border */
     border-radius: 5px;
     text-align: center;
 }
