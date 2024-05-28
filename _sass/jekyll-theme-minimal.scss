@@ -166,7 +166,7 @@ ul.downloads {
 
 .appointment-btn {
   display: block;
-  margin: 20px auto; /* Updated to center horizontally */
+  margin: 30px auto; /* Updated to center horizontally */
   padding: 10px 20px;
   background-color: transparent; /* Updated to transparent */
   color: #FFFFFF;
@@ -186,7 +186,7 @@ ul.downloads {
   justify-content: space-between;
   margin: 20px 0;
   position: relative; /* Change position to relative */
-  bottom: auto; /* Reset the bottom property */
+  bottom: 20px; /* Reset the bottom property */
   left: auto; /* Reset the left property */
   right: auto; /* Reset the right property */
   z-index: 999; /* Ensures it stays above other content */
