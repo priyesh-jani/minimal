@@ -14,17 +14,17 @@ body {
 .wrapper {
   display: flex;
   width: 100%;
+  min-height: 100vh;
 }
 
 .left-side {
-  width: 270px;
+  width: 300px; /* Increased width */
   background-color: #595958; /* Changed color */
   color: white;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
 }
 
 header, footer {
@@ -156,11 +156,11 @@ ul.downloads {
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
-  width: 270px;
+  width: 100%;
 }
 
 .downloads li {
-  width: 89px;
+  width: calc(100% / 3); /* Adjusted for the increased width */
   float: left;
   border-right: 1px solid #e0e0e0;
   height: 40px;
@@ -200,7 +200,7 @@ strong {
 
 .downloads li + li + li {
   border-right: none;
-  width: 89px;
+  width: calc(100% / 3); /* Adjusted for the increased width */
 }
 
 .downloads a strong {
