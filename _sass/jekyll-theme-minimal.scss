@@ -183,6 +183,13 @@ ul.downloads {
     margin: 20px 0;
 }
 
+.social-profiles {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to control the distance from the bottom */
+    right: 20px; /* Adjust this value to control the distance from the right */
+    z-index: 999; /* Ensures it stays above other content */
+}
+
 .social-profiles a {
     display: block;
     width: 45px;
@@ -199,13 +206,6 @@ ul.downloads {
 .social-profiles a:hover, .social-profiles a:focus {
     background-color: #555;
 }
-
-.social-icons {
-    position: fixed;
-    bottom: 20px; /* Adjust this value to control the distance from the bottom */
-    right: 20px; /* Adjust this value to control the distance from the right */
-}
-
 
 .downloads li {
   width: calc(100% / 3); /* Adjusted for the increased width */
