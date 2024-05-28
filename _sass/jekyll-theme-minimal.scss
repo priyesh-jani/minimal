@@ -14,18 +14,17 @@ body {
 .wrapper {
   display: flex;
   width: 100%;
-  min-height: 100vh;
 }
 
 .left-side {
-  width: 300px; /* Adjusted width if needed */
+  width: 300px; /* Adjust width as needed */
   background-color: #595958; /* Changed color */
   color: white;
   text-align: center;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start; /* Align items to the start */
   position: fixed; /* Make the left side fixed */
   height: 100vh; /* Full height */
   overflow-y: auto; /* Add scrolling if content overflows */
@@ -166,7 +165,7 @@ ul.downloads {
 
 .appointment-btn {
   display: block;
-  margin: 30px auto; /* Updated to center horizontally */
+  margin: 20px auto; /* Updated to center horizontally */
   padding: 10px 20px;
   background-color: transparent; /* Updated to transparent */
   color: #FFFFFF;
@@ -184,12 +183,10 @@ ul.downloads {
 .social-profiles {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
-  position: relative; /* Change position to relative */
-  bottom: 20px; /* Reset the bottom property */
-  left: auto; /* Reset the left property */
-  right: auto; /* Reset the right property */
-  z-index: 999; /* Ensures it stays above other content */
+  position: fixed; /* Change position to fixed */
+  bottom: 20px; /* Place at the bottom of the viewport */
+  left: 20px; /* Align with left side */
+  z-index: 999; /* Ensure it stays above other content */
 }
 
 .social-profiles a {
