@@ -159,6 +159,46 @@ ul.downloads {
   width: 100%;
 }
 
+.appointment-btn {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #267CB9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.appointment-btn:hover, .appointment-btn:focus {
+    background-color: #1a5a8b;
+    font-weight: bold;
+}
+
+.social-profiles {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social-profiles a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-profiles a:hover, .social-profiles a:focus {
+    background-color: #555;
+}
+
+
 .downloads li {
   width: calc(100% / 3); /* Adjusted for the increased width */
   float: left;
