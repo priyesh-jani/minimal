@@ -167,7 +167,7 @@ ul.downloads {
     background-color: transparent; /* Updated to transparent */
     color: #FFFFFF; 
     text-decoration: none;
-    border: 2px solid #000000; /* Added black border */
+    border: 2px solid #FFFFFF; /* Added black border */
     border-radius: 5px;
     text-align: center;
 }
@@ -186,7 +186,7 @@ ul.downloads {
 .social-profiles {
     position: fixed;
     bottom: 20px; /* Adjust this value to control the distance from the bottom */
-    right: 20px; /* Adjust this value to control the distance from the right */
+    left: 20px; /* Change this from right to left */
     z-index: 999; /* Ensures it stays above other content */
 }
 
