@@ -9,30 +9,25 @@ body {
   color: #727272;
   font-weight: 400;
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center the content horizontally */
 }
 
 .wrapper {
   display: flex;
-  flex-direction: column;
   width: 100%;
-  max-width: 960px; /* Limit the max width for better readability */
-  align-items: center; /* Center the wrapper content */
 }
 
 .left-side {
-  width: 100%;
-  max-width: 300px; /* Max width to ensure it doesn't grow too large */
-  background-color: #595958;
+  width: 300px; /* Adjust width as needed */
+  background-color: #595958; /* Changed color */
   color: white;
   text-align: center;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  height: auto;
-  margin-bottom: 20px; /* Margin bottom for spacing */
+  justify-content: flex-start; /* Align items to the start */
+  position: fixed; /* Make the left side fixed */
+  height: 100vh; /* Full height */
+  overflow-y: auto; /* Add scrolling if content overflows */
 }
 
 header, footer {
@@ -46,8 +41,7 @@ header h1, header p, header a, header ul, footer p {
 section {
   flex-grow: 1;
   padding: 20px;
-  width: 100%;
-  max-width: 960px; /* Limit the max width for better readability */
+  margin-left: 340px; /* Adjust margin to match the width of the left-side */
 }
 
 h1 {
@@ -171,12 +165,12 @@ ul.downloads {
 
 .appointment-btn {
   display: block;
-  margin: 20px auto;
+  margin: 20px auto; /* Updated to center horizontally */
   padding: 10px 20px;
-  background-color: transparent;
+  background-color: transparent; /* Updated to transparent */
   color: #FFFFFF;
   text-decoration: none;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #FFFFFF; /* Added black border */
   border-radius: 5px;
   text-align: center;
 }
@@ -189,7 +183,10 @@ ul.downloads {
 .social-profiles {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  position: fixed; /* Change position to fixed */
+  bottom: 20px; /* Place at the bottom of the viewport */
+  left: 20px; /* Align with left side */
+  z-index: 999; /* Ensure it stays above other content */
 }
 
 .social-profiles a {
@@ -210,7 +207,7 @@ ul.downloads {
 }
 
 .downloads li {
-  width: calc(100% / 3);
+  width: calc(100% / 3); /* Adjusted for the increased width */
   float: left;
   border-right: 1px solid #e0e0e0;
   height: 40px;
@@ -250,7 +247,7 @@ strong {
 
 .downloads li + li + li {
   border-right: none;
-  width: calc(100% / 3);
+  width: calc(100% / 3); /* Adjusted for the increased width */
 }
 
 .downloads a strong {
