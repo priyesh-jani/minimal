@@ -16,7 +16,17 @@
         @media (max-width: 768px) {
             /* Example styles for smaller screens */
             .left-side {
-                width: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 300px; /* or any width you prefer */
+                overflow-y: auto;
+                background-color: #f8f9fa; /* optional: add background color */
+                z-index: 1000; /* ensure it's above other content */
+            }
+            section {
+                margin-left: 300px; /* adjust with the width of the left-side */
             }
             header {
                 text-align: center;
