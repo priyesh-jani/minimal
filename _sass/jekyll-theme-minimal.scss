@@ -9,26 +9,30 @@ body {
   color: #727272;
   font-weight: 400;
   display: flex;
-  flex-direction: column; /* Changed to column for better stacking on small screens */
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
 }
 
 .wrapper {
   display: flex;
-  flex-direction: column; /* Default to column for small screens */
+  flex-direction: column;
   width: 100%;
+  max-width: 960px; /* Limit the max width for better readability */
+  align-items: center; /* Center the wrapper content */
 }
 
 .left-side {
-  width: 100%; /* Full width on small screens */
-  background-color: #595958; /* Changed color */
+  width: 100%;
+  max-width: 300px; /* Max width to ensure it doesn't grow too large */
+  background-color: #595958;
   color: white;
   text-align: center;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  position: relative; /* Changed to relative */
-  height: auto; /* Adjusted height */
+  height: auto;
+  margin-bottom: 20px; /* Margin bottom for spacing */
 }
 
 header, footer {
@@ -42,7 +46,8 @@ header h1, header p, header a, header ul, footer p {
 section {
   flex-grow: 1;
   padding: 20px;
-  margin-left: 0; /* Reset margin for small screens */
+  width: 100%;
+  max-width: 960px; /* Limit the max width for better readability */
 }
 
 h1 {
@@ -184,8 +189,7 @@ ul.downloads {
 .social-profiles {
   display: flex;
   justify-content: space-between;
-  position: relative;
-  margin-top: 20px; /* Added margin-top for spacing */
+  margin-top: 20px;
 }
 
 .social-profiles a {
@@ -206,7 +210,7 @@ ul.downloads {
 }
 
 .downloads li {
-  width: calc(100% / 3); /* Adjusted for the increased width */
+  width: calc(100% / 3);
   float: left;
   border-right: 1px solid #e0e0e0;
   height: 40px;
@@ -246,7 +250,7 @@ strong {
 
 .downloads li + li + li {
   border-right: none;
-  width: calc(100% / 3); /* Adjusted for the increased width */
+  width: calc(100% / 3);
 }
 
 .downloads a strong {
@@ -266,50 +270,59 @@ hr {
   margin: 0 0 20px;
 }
 
-/* Responsive Adjustments */
-@media (min-width: 600px) {
+@media print, screen and (max-width: 960px) {
   .wrapper {
-    flex-direction: row; /* Row direction for larger screens */
+    width: auto;
+    margin: 0;
   }
 
-  .left-side {
-    width: 300px; /* Fixed width for larger screens */
-    position: fixed; /* Fixed position */
-    height: 100vh; /* Full height */
-    overflow-y: auto; /* Scrollable if content overflows */
+  header, section, footer {
+    float: none;
+    position: static;
+    width: auto;
   }
 
-  section {
-    margin-left: 320px; /* Adjust margin to match the width of the left-side */
-  }
-
-  .social-profiles {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    z-index: 999;
-  }
-}
-
-@media (max-width: 600px) {
-  .left-side {
-    position: relative; /* Relative position for smaller screens */
-    height: auto; /* Auto height */
+  header {
+    padding-right: 320px;
   }
 
   section {
-    margin-left: 0; /* Reset margin for smaller screens */
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
   }
 
-  .social-profiles {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    margin-top: 20px; /* Add margin-top for spacing */
+  header a small {
+    display: inline;
+  }
+
+  header ul {
+    position: absolute;
+    right: 50px;
+    top: 52px;
   }
 }
 
-@media (max-width: 480px) {
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap: break-word;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  header ul, header p.view {
+    position: static;
+  }
+
+  pre, code {
+    word-wrap: normal;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
   body {
     padding: 15px;
   }
