@@ -15,17 +15,23 @@
         /* Add your custom styles for responsive design */
         @media (max-width: 768px) {
             /* Example styles for smaller screens */
+            .wrapper {
+                display: flex;
+                flex-direction: row;
+                overflow-x: auto;
+            }
             .left-side {
-                position: absolute;
-                left: 0;
+                flex: 0 0 auto;
+                width: 300px; /* or any width you prefer */
+                position: fixed;
                 top: 0;
                 bottom: 0;
-                width: 300px; /* or any width you prefer */
                 overflow-y: auto;
                 background-color: #f8f9fa; /* optional: add background color */
                 z-index: 1000; /* ensure it's above other content */
             }
             section {
+                flex: 1;
                 margin-left: 300px; /* adjust with the width of the left-side */
             }
             header {
