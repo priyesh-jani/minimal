@@ -11,6 +11,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    <style>
+        /* Add your custom styles for responsive design */
+        @media (max-width: 768px) {
+            /* Example styles for smaller screens */
+            .left-side {
+                width: 100%;
+            }
+            header {
+                text-align: center;
+            }
+            /* Add more styles as needed */
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -32,7 +45,7 @@
                 </ul>
                 {% endif %}
                 <!-- Book an Appointment Button -->
-                                <p><a href="https://calendly.com/your-calendly-username" class="appointment-btn">Click Here to Connect</a></p>
+                <p><a href="https://calendly.com/your-calendly-username" class="appointment-btn">Click Here to Connect</a></p>
                 <!-- Social Profiles -->
                 <div class="social-profiles">
                     <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
