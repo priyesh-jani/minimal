@@ -33,10 +33,7 @@ body {
 
 header, footer {
   width: 100%;
-}
-
-header h1, header p, header a, header ul, footer p {
-  color: white;
+  color: black; /* Font color changed to black */
 }
 
 section {
@@ -45,34 +42,9 @@ section {
   margin-left: 340px; /* Adjust margin to match the width of the left-side */
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   color: #012E40;
   margin: 0 0 20px;
-}
-
-h2, h3, h4, h5, h6 {
-  color: #012E40;
-  margin: 0 0 20px;
-}
-
-p, ul, ol, table, pre, dl {
-  margin: 0 0 20px;
-}
-
-h1, h2, h3 {
-  line-height: 1.1;
-}
-
-h1 {
-  font-size: 28px;
-}
-
-h2 {
-  color: #012E40;
-}
-
-h3, h4, h5, h6 {
-  color: #012E40;
 }
 
 a {
@@ -85,83 +57,19 @@ a:hover, a:focus {
   font-weight: bold;
 }
 
-a small {
+.downloads a {
+  line-height: 1;
   font-size: 11px;
-  color: #777;
-  margin-top: -0.3em;
+  color: #676767;
   display: block;
+  text-align: center;
+  padding-top: 6px;
+  height: 34px;
 }
 
-a:hover small {
-  color: #777;
-}
-
-blockquote {
-  border-left: 1px solid #e5e5e5;
-  margin: 0;
-  padding: 0 0 0 20px;
-  font-style: italic;
-}
-
-code, pre {
-  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color: #333;
-}
-
-pre {
-  padding: 8px 15px;
-  background: #f8f8f8;
-  border-radius: 5px;
-  border: 1px solid #e5e5e5;
-  overflow-x: auto;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  text-align: left;
-  padding: 5px 10px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-dt {
-  color: #444;
-  font-weight: 700;
-}
-
-th {
-  color: #444;
-}
-
-img {
-  max-width: 100%;
-}
-
-kbd {
-  background-color: #fafbfc;
-  border: 1px solid #c6cbd1;
-  border-bottom-color: #959da5;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #959da5;
-  color: #444d56;
-  display: inline-block;
-  font-size: 11px;
-  line-height: 10px;
-  padding: 3px 5px;
-  vertical-align: middle;
-}
-
-ul.downloads {
-  list-style: none;
-  height: 40px;
-  padding: 0;
-  background: #f4f4f4;
-  border-radius: 5px;
-  border: 1px solid #e0e0e0;
-  width: 100%;
+.downloads a:hover, .downloads a:focus {
+  color: #675C5C;
+  font-weight: bold;
 }
 
 .appointment-btn {
@@ -207,6 +115,16 @@ ul.downloads {
   background-color: #555;
 }
 
+.downloads {
+  list-style: none;
+  height: 40px;
+  padding: 0;
+  background: #f4f4f4;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+}
+
 .downloads li {
   width: calc(100% / 3); /* Adjusted for the increased width */
   float: left;
@@ -222,28 +140,8 @@ ul.downloads {
   border-radius: 0 5px 5px 0;
 }
 
-.downloads a {
-  line-height: 1;
-  font-size: 11px;
-  color: #676767;
-  display: block;
-  text-align: center;
-  padding-top: 6px;
-  height: 34px;
-}
-
-.downloads a:hover, .downloads a:focus {
-  color: #675C5C;
-  font-weight: bold;
-}
-
 .downloads ul a:active {
   background-color: #f0f0f0;
-}
-
-strong {
-  color: #222;
-  font-weight: 700;
 }
 
 .downloads li + li + li {
