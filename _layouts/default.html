@@ -11,35 +11,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-    <style>
-        /* Add your custom styles for responsive design */
-        @media (max-width: 768px) {
-            /* Example styles for smaller screens */
-            .wrapper {
-                display: flex;
-                flex-direction: row;
-                overflow-x: auto;
-            }
-            .left-side {
-                flex: 0 0 auto;
-                width: 300px; /* or any width you prefer */
-                position: fixed;
-                top: 0;
-                bottom: 0;
-                overflow-y: auto;
-                background-color: #f8f9fa; /* optional: add background color */
-                z-index: 1000; /* ensure it's above other content */
-            }
-            section {
-                flex: 1;
-                margin-left: 300px; /* adjust with the width of the left-side */
-            }
-            header {
-                text-align: center;
-            }
-            /* Add more styles as needed */
-        }
-    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -61,7 +32,7 @@
                 </ul>
                 {% endif %}
                 <!-- Book an Appointment Button -->
-                <p><a href="https://calendly.com/your-calendly-username" class="appointment-btn">Click Here to Connect</a></p>
+                                <p><a href="https://calendly.com/your-calendly-username" class="appointment-btn">Click Here to Connect</a></p>
                 <!-- Social Profiles -->
                 <div class="social-profiles">
                     <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
