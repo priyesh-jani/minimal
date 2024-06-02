@@ -28,6 +28,9 @@ body {
   transition: transform 0.3s ease; /* Add transition for smoother animation */
   transform: translateX(0); /* Initially positioned in the viewport */
 }
+.left-side.collapsed {
+  transform: translateX(-100%); /* Slide left outside the viewport */
+}
 header, footer {
   width: 100%;
 }
