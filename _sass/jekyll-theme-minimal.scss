@@ -25,6 +25,8 @@ body {
   position: fixed; /* Make the left side fixed */
   height: 100vh; /* Full height */
   overflow-y: auto; /* Add scrolling if content overflows */
+  transition: transform 0.3s ease; /* Add transition for smoother animation */
+  transform: translateX(0); /* Initially positioned in the viewport */
 }
 header, footer {
   width: 100%;
