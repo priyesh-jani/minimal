@@ -14,7 +14,7 @@ body {
   width: 100%;
 }
 .left-side {
-  width: 300px; /* Adjust width as needed */
+  width: 300px; /* Default width */
   background-color: #595958; /* Changed color */
   color: white;
   text-align: center;
@@ -28,9 +28,25 @@ body {
   transition: transform 0.3s ease; /* Add transition for smoother animation */
   transform: translateX(0); /* Initially positioned in the viewport */
 }
-.left-side.collapsed {
-  transform: translateX(-100%); /* Slide left outside the viewport */
+
+@media (max-width: 960px) {
+  .left-side {
+    width: 250px; /* Adjust width for medium screens */
+  }
 }
+
+@media (max-width: 720px) {
+  .left-side {
+    width: 200px; /* Adjust width for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .left-side {
+    width: 100%; /* Full width for extra small screens */
+  }
+}
+
 header, footer {
   width: 100%;
 }
