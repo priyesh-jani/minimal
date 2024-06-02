@@ -11,73 +11,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-    <style>
-        /* Basic Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .wrapper {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .left-side {
-            flex: 1 1 100%;
-            background: #f4f4f4;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header h1 a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        header img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .view a, .appointment-btn, .downloads a {
-            display: block;
-            margin: 10px 0;
-            padding: 10px;
-            background: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .social-profiles a {
-            display: inline-block;
-            margin: 0 10px;
-            color: #333;
-            font-size: 20px;
-        }
-
-        section {
-            flex: 1 1 100%;
-            padding: 20px;
-        }
-
-        @media (min-width: 600px) {
-            .left-side {
-                flex: 1 1 30%;
-                text-align: left;
-            }
-
-            section {
-                flex: 1 1 70%;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -99,7 +32,7 @@
                 </ul>
                 {% endif %}
                 <!-- Book an Appointment Button -->
-                <p><a href="https://calendly.com/your-calendly-username" class="appointment-btn">Click Here to Connect</a></p>
+                                <p><a href="https://calendly.com/your-calendly-username" class="appointment-btn">Click Here to Connect</a></p>
                 <!-- Social Profiles -->
                 <div class="social-profiles">
                     <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
